@@ -19,11 +19,11 @@ def extract_data():
     X=[]
     Y=[]
     for i in [9,10,12,15,18,19,24,26,27,30]:
-        file ="C://Users//HP//Documents//Interactions//"+str(i)+"//"+str(i)+".eaf"
+        file ="PAF//PAF_2023//Dataset//Interactions//"+str(i)+"//"+str(i)+".eaf"
         eaf = Eaf(file)
         annots = sorted(eaf.get_annotation_data_for_tier('Trust'))
-        repertoire_emotion="C://Users//HP//Documents//Data_emotion//"+str(i)
-        repertoire_aus="C://Users//HP//Documents//data_AUs//"+str(i)
+        repertoire_emotion="PAF//Data//Data_emotion//"+str(i)
+        repertoire_aus="PAF//Data//data_AUs//+str(i)
         data_e=[]
         data_au=[]
 
